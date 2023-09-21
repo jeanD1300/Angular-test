@@ -1,0 +1,10 @@
+mat-form-field {
+  width: 400px;
+}
+.action {
+  display: flex;
+  justify-content: end;
+}
+.action button{
+    margin-right: 7px;
+}

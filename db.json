@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "empId": "z00001",
+      "firstName": "Emma",
+      "lastName": "Watson",
+      "email": "Emma.Wa@ztest.com",
+      "active": true,
+      "id": 2
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Benedict",
+      "lastName": "Cumberbatch",
+      "email": "Benedict.Cu@ztest.com",
+      "active": false,
+      "id": 3
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Tom",
+      "lastName": "Hiddleston",
+      "email": "Tom.Hi@ztest.com",
+      "active": true,
+      "id": 4
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Christopher",
+      "lastName": "Nolan",
+      "email": "Christopher.No@ztest.com",
+      "active": false,
+      "id": 5
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Henry",
+      "lastName": "Cavill",
+      "email": "Henry.Ca@ztest.com",
+      "active": false,
+      "id": 6
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Daniel",
+      "lastName": "Radcliff",
+      "email": "Daniel.Ra@ztest.com",
+      "active": true,
+      "id": 7
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Chris",
+      "lastName": "Evans",
+      "email": "Chris.Ev@ztest.com",
+      "active": true,
+      "id": 9
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Brad",
+      "lastName": "Pitt",
+      "email": "Brad.Pi@ztest.com",
+      "active": true,
+      "id": 10
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Liam",
+      "lastName": "Neeson",
+      "email": "Liam.Ne@ztest.com",
+      "active": true,
+      "id": 11
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Ben",
+      "lastName": "Affleck",
+      "email": "Ben.Af@ztest.com",
+      "active": true,
+      "id": 12
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Hugh",
+      "lastName": "Jackman",
+      "email": "Hugh.Ja@ztest.com",
+      "active": false,
+      "id": 13
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Will",
+      "lastName": "Smith",
+      "email": "Will.Sm@ztest.com",
+      "active": true,
+      "id": 14
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Napat",
+      "lastName": "Kwanthongyim",
+      "email": "Napat.Kw@ztest.com",
+      "active": true,
+      "id": 15
+    },
+    {
+      "empId": "z00001",
+      "firstName": "Adam",
+      "lastName": "Smith",
+      "email": "Adam.Sm@ztest.com",
+      "active": true,
+      "id": 16
+    }
+  ]
+}

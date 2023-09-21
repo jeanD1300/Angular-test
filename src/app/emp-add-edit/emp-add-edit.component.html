@@ -1,0 +1,78 @@
+<div mat-dialog-title>
+  <h1>Add Employee Form</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+  <div mat-dialog-content>
+    <!-- Auto Generate z00001-->
+    <div class="row">
+      <p>Employee ID</p>
+      <mat-form-field appearance="outline">
+        <input
+          matInput
+          type="text"
+          placeholder="Employee ID"
+          [value]="empForm?.get('empId')?.value"
+          readonly
+        />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <p>First Name</p>
+      <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input
+          matInput
+          type="text"
+          formControlName="firstName"
+          [required]="true"
+        />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <p>Last Name</p>
+      <mat-form-field appearance="outline">
+        <mat-label>Last Name</mat-label>
+        <input
+          matInput
+          type="text"
+          formControlName="lastName"
+          [required]="true"
+        />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <p>Email</p>
+      <!-- Display the generated email directly from the form -->
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input
+          matInput
+          type="email"
+          [value]="empForm?.get('email')?.value"
+          readonly
+        />
+      </mat-form-field>
+    </div>
+    <div class="row">
+      <section class="example-section">
+        <mat-checkbox class="example-margin" formControlName="active">
+          Active
+        </mat-checkbox>
+      </section>
+    </div>
+  </div>
+  <div mat-dialog-actions class="action">
+    <button
+      mat-raised-button
+      color="warn"
+      type="button"
+      (click)="onCancelClick()"
+    >
+      Cancel
+    </button>
+    <button mat-raised-button type="button" (click)="clearForm()">Clear</button>
+    <button mat-raised-button color="primary" type="submit">
+      {{ data ? "Update" : "Submit" }}
+    </button>
+  </div>
+</form>
