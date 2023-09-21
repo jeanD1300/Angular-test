@@ -2,9 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.2.
 
-## Development server
+## Should to 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+run this command in git bash. 
+- ng add @angular/material
+- npm install --save @angular/material @angular/cdk
+
+  Json DB
+- json-server --watch db.json
+
+  let's start >> npm start ,yarn start , ng serve 
+
+
+
 
 ## Code scaffolding
 
